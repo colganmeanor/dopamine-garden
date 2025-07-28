@@ -30,7 +30,7 @@
   - [X] 1.1 Install and configure Async Storage dependency for data persistence
   - [X] 1.2 Set up bottom tab navigation between Active Tasks and Completed Tasks screens
   - [X] 1.3 Create basic screen structure for home.tsx (Active Tasks) and completed.tsx
-  - [ ] 1.4 Implement floating action button for adding new tasks
+  - [X] 1.4 Implement floating action button for adding new tasks
   - [ ] 1.5 Set up modal navigation for task creation and editing forms
 
 - [ ] 2.0 Task Data Model and Storage Implementation
