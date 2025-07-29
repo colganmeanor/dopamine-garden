@@ -1,9 +1,17 @@
+import TaskModal from '@/components/task-modal';
 import { Ionicons } from '@expo/vector-icons';
 import { Tabs } from 'expo-router';
+import { useState } from 'react';
 import { StyleSheet, View } from 'react-native';
 import CreateTaskButton from '../../components/create-task-button';
 
 export default function TabLayout() {
+  const [modalVisible, setModalVisible] = useState(false);
+
+  const handleCreateTask = () => {
+    setModalVisible(true);
+  };
+
   return (
     <View style={styles.container}>
       <Tabs
@@ -40,8 +48,9 @@ export default function TabLayout() {
         />
       </Tabs>
       <View style={styles.fabContainer}>
-        <CreateTaskButton />
+        <CreateTaskButton onPress={handleCreateTask} />
       </View>
+      <TaskModal isVisible={modalVisible} onClose={() => setModalVisible(false)} />
     </View>
   );
 }
@@ -55,5 +64,10 @@ const styles = StyleSheet.create({
     bottom: 80, // Position above the tab bar
     right: 20,
     zIndex: 1000,
+  },
+  modalContent: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
   },
 });
