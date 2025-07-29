@@ -1,11 +1,11 @@
 import { Ionicons } from '@expo/vector-icons';
 import { Pressable, StyleSheet } from 'react-native';
 
-const CreateTaskButton = () => {
-  const onPress = () => {
-    console.log('Create Task');
-  };
+interface CreateTaskButtonProps {
+  onPress: () => void;
+}
 
+const CreateTaskButton = ({ onPress }: CreateTaskButtonProps) => {
   return (
     <Pressable onPress={onPress} style={styles.button}>
       <Ionicons name="add" size={24} color="white" />
