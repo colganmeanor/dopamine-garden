@@ -34,7 +34,7 @@
   - [X] 1.5 Set up modal toggle for task creation and editing forms
 
 - [ ] 2.0 Task Data Model and Storage Implementation
-  - [ ] 2.1 Create Task TypeScript interface with required properties (id, title, description, completed, createdAt, completedAt)
+  - [X] 2.1 Create Task TypeScript interface with required properties (id, title, description, completed, createdAt, completedAt)
   - [ ] 2.2 Implement Async Storage utility functions for saving, loading, and deleting tasks
   - [ ] 2.3 Create UUID generation utility for unique task IDs
   - [ ] 2.4 Implement data migration and error handling for storage operations
