@@ -1,4 +1,4 @@
-# React Native Todo App - Task List
+# Task Garden - Task List
 
 ## Relevant Files
 

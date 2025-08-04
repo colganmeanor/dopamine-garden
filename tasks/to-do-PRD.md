@@ -1,4 +1,4 @@
-# React Native Todo App - Product Requirements Document
+# Task Garden - Product Requirements Document
 
 ## Project Overview
 
