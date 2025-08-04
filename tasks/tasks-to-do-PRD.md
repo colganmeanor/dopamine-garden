@@ -14,6 +14,7 @@
 - `types/task.ts` - TypeScript interfaces for Task data model
 - `utils/storage.ts` - Utility functions for AsyncStorage operations
 - `utils/validation.ts` - Form validation utilities
+- `styles/theme.ts` - Design system with colors, typography, spacing, and other design tokens
 - `components/TaskItem.test.tsx` - Unit tests for TaskItem component
 - `components/TaskForm.test.tsx` - Unit tests for TaskForm component
 - `hooks/useTasks.test.ts` - Unit tests for useTasks hook
@@ -34,11 +35,19 @@
   - [X] 1.5 Set up modal toggle for task creation and editing forms
 
 - [ ] 2.0 Task Data Model and Storage Implementation
-  - [ ] 2.1 Create Task TypeScript interface with required properties (id, title, description, completed, createdAt, completedAt)
+  - [X] 2.1 Create Task TypeScript interface with required properties (id, title, description, completed, createdAt, completedAt)
   - [ ] 2.2 Implement Async Storage utility functions for saving, loading, and deleting tasks
   - [ ] 2.3 Create UUID generation utility for unique task IDs
   - [ ] 2.4 Implement data migration and error handling for storage operations
   - [ ] 2.5 Add storage utility unit tests
+
+- [ ] 2.5 Design System and Theme Implementation
+  - [ ] 2.5.1 Create theme file with color palette (primary, secondary, background, text, etc.)
+  - [ ] 2.5.2 Define typography scale (font sizes, font weights, line heights)
+  - [ ] 2.5.3 Establish spacing system (margins, padding, gaps)
+  - [ ] 2.5.4 Define border radius and shadow values
+  - [ ] 2.5.5 Update existing components to use theme values
+  - [ ] 2.5.6 Add TypeScript types for theme properties
 
 - [ ] 3.0 Core Task Management Components
   - [ ] 3.1 Create TaskItem component with title, description, completion checkbox, and edit/delete actions
