@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "do-some-tasks",
-    "slug": "do-some-tasks",
+    "name": "Task Garden",
+    "slug": "task-garden",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "dosometasks",
+    "scheme": "dopaminegarden",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
